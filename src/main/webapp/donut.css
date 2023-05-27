@@ -1,0 +1,139 @@
+/* Styles for form submission error message */
+.error-message {
+  color: #FF4136;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Styles for success message after form submission */
+.success-message {
+  color: #2ECC40;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Styles for submit and cancel buttons */
+button {
+  background-color: #008CBA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #006B8F;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+}
+
+.cancelbtn:hover {
+  background-color: #da190b;
+}
+
+/* Styles for form container */
+.form-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+/* Styles for form header */
+.form-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styles for form input fields */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* Styles for form input labels */
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styles for checkbox form */
+.checkbox-group {
+  margin-bottom: 16px;
+}
+
+.checkbox-group label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  color: #333;
+}
+
+.checkbox-group label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-group label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-group input[type="checkbox"]:checked+label:before {
+  content: "✓";
+  font-size: 16px;
+  color: #fff;
+  background-color: #008CBA;
+  border-color: #008CBA;
+}
+
+/* Styles for form inputs with errors */
+.form-input.error {
+  border-color: #FF4136;
+}
+
+.form-label.error {
+  color: #FF4136;
+}
+
+.error-message.error {
+  color: #FF4136;
+}
+
+/* Styles for form inputs with success */
+.form-input.success {
+  border-color: #2ECC40;
+}
+
+.form-label.success {
+  color: #2ECC40;
+}
+
+.success-message.success {
+  color: #2ECC40;
+}
